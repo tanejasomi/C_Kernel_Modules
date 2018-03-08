@@ -1,0 +1,65 @@
+2 bytes :
+Time taken by write operation
+Time taken to create 10 files: 104 
+Time taken per write: 10 microseconds 
+Time taken per byte: 52 microseconds 
+Time taken by fwrite operation
+Time taken to create 10 files: 264 
+Time taken per write: 26 microseconds 
+Time taken per byte: 132 microseconds 
+
+16 bytes :
+Time taken by write operation
+Time taken to create 10 files: 431 
+Time taken per write: 43 microseconds 
+Time taken per byte: 26 microseconds 
+Time taken by fwrite operation
+Time taken to create 10 files: 175 
+Time taken per write: 17 microseconds 
+Time taken per byte: 10 microseconds 
+
+128 bytes :
+Time taken by write operation
+Time taken to create 10 files: 164 
+Time taken per write: 16 microseconds 
+Time taken per byte: 1 microseconds 
+Time taken by fwrite operation
+Time taken to create 10 files: 162 
+Time taken per write: 16 microseconds 
+Time taken per byte: 1 microseconds 
+
+1024 bytes :
+Time taken by write operation
+Time taken to create 10 files: 178 
+Time taken per write: 17 microseconds 
+Time taken per byte: 0 microseconds 
+Time taken by fwrite operation
+Time taken to create 10 files: 155 
+Time taken per write: 15 microseconds 
+Time taken per byte: 0 microseconds 
+
+8192 bytes :
+Time taken by write operation
+Time taken to create 10 files: 208 
+Time taken per write: 20 microseconds 
+Time taken per byte: 0 microseconds 
+Time taken by fwrite operation
+Time taken to create 10 files: 162 
+Time taken per write: 16 microseconds 
+Time taken per byte: 0 microseconds 
+
+65536 bytes :
+Time taken by write operation
+Time taken to create 10 files: 378 
+Time taken per write: 37 microseconds 
+Time taken per byte: 0 microseconds 
+Time taken by fwrite operation
+Time taken to create 10 files: 184 
+Time taken per write: 18 microseconds 
+Time taken per byte: 0 microseconds 
+
+
+Analysis:
+Time taken by "write" operation increases considerably as compared to fwrite with increase in size of file length."Write" operation takes near about double or more time as compard to fwrite operation.
+
+
