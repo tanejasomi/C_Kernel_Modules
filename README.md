@@ -1,4 +1,4 @@
-#C_Kernel_Modules
+#Linux_Kernel_Modules
 
 This Repository contains modules for operating system kernel programming written in language C.
 Repository contains modules for:
