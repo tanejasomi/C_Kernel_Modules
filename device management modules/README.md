@@ -20,5 +20,7 @@ It extends already existing program ticket.c to change it into driver that serve
 
 Command to compile code:
 gcc -O2 -Wall -Wextra dev_access.c -o dev_access
+
+
 Command to run code:
 sudo ./dev_access 0/1/2
