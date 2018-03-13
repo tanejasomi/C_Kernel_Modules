@@ -2,7 +2,7 @@
 
 This Repository contains modules for operating system kernel programming written in language C.
 Repository contains modules for:
-1) Kernel "Hello World"
+1) Program to run Kernel module
 2) Device Management modules
 3) Memory Management modules
 4) Performance Analysis modules
