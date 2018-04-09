@@ -4,7 +4,7 @@ UNIX has three major kinds of device drivers:
 2)Block device driver for devices like disks
 3)Networks device drivers
 
-Character devices are those that read and write byte-oriented data from and to hardware devices such as mice, serial and parallel ports, and terminals.
+Character devices are those that read and write byte-oriented data from and to hardware devices such as mouse, serial and parallel ports, and terminals.
 
 #Program dev_access.c
 
